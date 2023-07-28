@@ -1,0 +1,30 @@
+{
+    "name": "diasfs/twig-relative-path",
+    "type": "library",
+    "description": "Twig extension to work with relative paths",
+    "keywords": [
+        "twig",
+        "relative",
+        "path",
+        "paths",
+        "include",
+        "extends"
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Twig\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Fábio Dias",
+            "email": "binho85@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "twig/twig": "^2.7.0|^3.0"
+    }
+}
