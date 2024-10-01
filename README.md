@@ -1,6 +1,6 @@
 # Twig Relative Path Extension
 
-An extention for [Twig](https://twig.symfony.com/) that allows to include and extends templates using relative paths.
+An extension for [Twig](https://twig.symfony.com/) that allows to include and extends templates using relative paths.
 
 ## Instalation
 
@@ -30,7 +30,7 @@ $twig->addExtension(new RelativePathExtension());
         ...
     </head>
     <body>
-        {% block content '' %}        
+        {% block content '' %}
     </body>
 </html>
 
